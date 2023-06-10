@@ -1,0 +1,364 @@
+@media (max-width: 1315px) {
+  .header_nav-list {
+    justify-content: flex-start;
+    gap: 45px;
+  }
+  .header_logo {
+    gap: 15px;
+  }
+}
+@media (max-width: 1180px) {
+  .main_latest-addition {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .main_books-info {
+    padding: 0 15px;
+  }
+  .main_about-container {
+    padding: 0 15px;
+  }
+  .footer_info {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .description {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 1150px) {
+  .main_blok {
+    gap: 25px;
+  }
+  .main_latest-title::after,
+  .main_latest-title::before {
+    width: 360px;
+  }
+  .main_about-container {
+    justify-content: center;
+    row-gap: 15px;
+  }
+}
+@media (max-width: 1125px) {
+  .header {
+    height: 910px;
+  }
+  .books_header {
+    height: max-content;
+  }
+  .parallax_bg {
+    background-size: cover;
+  }
+}
+@media (max-width: 1085px) {
+  .header_nav-list {
+    padding-left: 15px;
+    padding-right: 125px;
+  }
+  .header_list {
+    gap: 15px;
+  }
+  .contact_bloc-container {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 1070px) {
+  .header_nav-list {
+    padding-left: 40px;
+  }
+  .main_video-container {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 1045px) {
+  .header__desc {
+    max-width: 600px;
+  }
+  .header_title {
+    margin-bottom: 40px;
+  }
+  .main_get-inTouch-blok {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 1005px) {
+  .main_latest-title::after,
+  .main_latest-title::before {
+    width: 300px;
+  }
+  .main_illumination-container {
+    padding: 0 15px;
+  }
+  .search {
+    padding: 0 15px;
+  }
+  .search_btn {
+    right: 25px;
+  }
+  .exposition_of-hewbrews {
+    padding: 0 15px;
+    gap: 0;
+  }
+}
+@media (max-width: 990px) {
+  .parallax_bg {
+    width: 105%;
+  }
+  .header_nav-list {
+    justify-content: space-between;
+    padding-right: 55px;
+  }
+  .burger.active {
+    display: flex;
+    position: absolute;
+    right: 45px;
+    top: 30px;
+    background-image: url(../icons/close.svg);
+    z-index: 999;
+    transition: 1s;
+  }
+  .burger_menu {
+    display: flex;
+  }
+
+  .header_list {
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 0;
+    right: 0;
+    top: -100%;
+    background: var(--blackColor);
+    z-index: 2;
+    padding: 30px 0;
+    transition: 0.6s;
+  }
+  .header_list.active {
+    top: 0;
+  }
+  .header_blok-info {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header_printings {
+    padding-left: 0;
+    margin-bottom: 55px;
+  }
+  .header_bg {
+    width: 100%;
+  }
+  .main_get-inTouch-blok {
+    justify-content: center;
+  }
+  .getinTouch_blok-Left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 890px) {
+  .main_latest-title::after,
+  .main_latest-title::before {
+    content: none;
+  }
+  .contact_bloc-container {
+    column-gap: 15px;
+    justify-content: center;
+  }
+}
+@media (max-width: 875px) {
+  .main_blok {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main_blok-right {
+    gap: 15px;
+    align-items: center;
+  }
+  .main_bloks {
+    gap: 60px;
+    padding: 0 15px;
+  }
+  .main_books-info {
+    justify-content: center;
+    gap: 25px;
+  }
+  .main_books-infoLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 890px) {
+  .cards_wrapper {
+    flex-wrap: nowrap;
+    margin-top: 30px;
+  }
+  .swiper {
+    width: 65%;
+  }
+  .slider_container {
+    position: relative;
+  }
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -35px;
+  }
+  .swiper-pagination {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 830px) {
+  .exposition_of-hewbrews {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 785px) {
+  .footer_info-links,
+  .footer_info-signUp {
+    justify-content: center;
+    row-gap: 15px;
+  }
+  .enquiry_container{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 660px) {
+  .header_blok-info {
+    padding-left: 35px;
+    padding-right: 15px;
+  }
+  .header_title {
+    font-size: 30px;
+  }
+  .header__desc {
+    font-size: 20px;
+  }
+  .header_printings {
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  .header_printings img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .header_blok-links {
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+  .main_description-about {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .footer_list-li:not(:last-child):after {
+    content: none;
+  }
+  .input_forms {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tabs_container {
+    height: 670px;
+  }
+}
+
+@media (max-width: 605px) {
+  .main_illumination-container {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .main_assosiations-container {
+    padding: 0 15px;
+  }
+  .tabs_container {
+    height: 710px;
+  }
+}
+@media (max-width: 530px) {
+  .main_assosiations-container {
+    justify-content: center;
+    row-gap: 15px;
+  }
+}
+@media (max-width: 525px) {
+  .header_nav-list {
+    justify-content: space-between;
+    padding-right: 25px;
+  }
+  .footer_list {
+    justify-content: center;
+    row-gap: 25px;
+    column-gap: 15px;
+  }
+}
+
+@media (max-width: 470px) {
+  .header_nav-list {
+    justify-content: space-between;
+  }
+  .header_title {
+    font-size: 25px;
+    max-width: 315px;
+  }
+  .header__desc {
+    font-size: 18px;
+  }
+}
+@media (max-width: 410px) {
+  .tabs_container {
+    height: 735px;
+  }
+  .footer {
+    margin-top: 0;
+  }
+  .description_form {
+    padding: 32px 28px 18px 20px;
+}
+}
+@media (max-width: 395px) {
+  .main_illumination-right {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .bloc_right-desc,
+  .bloc_right-tel {
+    font-size: 20px;
+  }
+  .tabs {
+    gap: 18px;
+    justify-content: center;
+  }
+}
+@media (max-width: 360px) {
+  .tabs_container {
+    height: 760px;
+  }
+  .check_input{
+    font: 14px;
+  }
+}
+@media (max-width: 340px) {
+  .header {
+    height: 950px;
+  }
+  .books_header {
+    height: max-content;
+  }
+  .main_bloks {
+    margin-top: 40px;
+    gap: 35px;
+  }
+  .tabs {
+    gap: 16px;
+    justify-content: center;
+  }
+}
